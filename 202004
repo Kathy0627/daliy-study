@@ -34,6 +34,7 @@ ES6 块级作用域
 执行上下文是 JavaScript 执行一段代码时的运行环境
 https://juejin.im/post/5d50c6ef6fb9a06b1d21358d 闭包的应用场景
 
+this
 
 必须会的list
 1.手写promise
