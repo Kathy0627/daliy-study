@@ -47,7 +47,29 @@ this
 请假
 4.24 
 dns  
-fn.apply(this,args)
+var curry=function(fn){
+  var args = []
+  console.log(this)   //window
+  return function(){
+    if(arguments.length==0){
+      fn.apply(this,args)
+    }
+    Array.prototype.push.apply(args,[].slice.call(arguments))
+    return arguments.callee  //返回函数自己
+  }
+}
+var multi=function(){
+  var total = 0
+  for(var i=0,c;c<arguments.length[i++]){
+    total += c
+  }
+  return total
+}
+var sum = curry(multi)
+sum(100,200)(300)
+sum(400)
+sum()
+fn.apply(this,args) //这里的this指的是return function的function
 Array.prototype.push.apply(args,[].slice.call(arguments))  //将参数[1,2,3]转成1,2,3
 也可以用call(args,...arr)
 arr.push(1,2,3)
