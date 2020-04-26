@@ -47,6 +47,8 @@ this
 请假
 4.24 
 dns  
+减少不同域名间的请求，外链图片或资源下载到本地服务器再引用；
+现在的项目没有预解析，<meta http-equiv="x-dns-prefetch-control" content="on">因为没有引用外链
 var curry=function(fn){
   var args = []
   console.log(this)   //window
