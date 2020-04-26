@@ -80,7 +80,32 @@ this
 function aa(){
   console.log(this) 
 }
-aa()   
+aa()  
+2.定时器函数中的this指向window
+3.构造函数中的this指向实例对象
+function Person() {
+    console.log(this);
+}
+var per = new Person();
+//Person{}
+4.对象方法中的this指向实例对象
+function Person() {
+    console.log(this);
+    this.sayHi = function () {
+        console.log(this);
+    }
+}
+var per = new Person();
+per.sayHi()
+//Person{}   Person{hsayHi:f} 
+5.原型对象方法中的this指向实例对象
+function Person() {}
+Person.prototype.sayHi = function () {
+    console.log(this);
+};
+var per = new Person();
+per.sayHi();
+//Person{} 
 
 
 必须会的list
