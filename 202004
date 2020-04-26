@@ -42,6 +42,19 @@ css动画
 css动画
 高阶函数50%
 函数柯里化
+this
+4.23
+请假
+4.24 
+dns  
+fn.apply(this,args)
+Array.prototype.push.apply(args,[].slice.call(arguments))  //将参数[1,2,3]转成1,2,3
+也可以用call(args,...arr)
+arr.push(1,2,3)
+4.26
+fn.apply(this,args)
+this
+
 
 
 必须会的list
