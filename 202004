@@ -76,7 +76,11 @@ arr.push(1,2,3)
 4.26
 fn.apply(this,args)
 this
-
+1.普通函数中的this   指向window
+function aa(){
+  console.log(this) 
+}
+aa()   
 
 
 必须会的list
