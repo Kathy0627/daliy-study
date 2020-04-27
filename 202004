@@ -75,6 +75,7 @@ fn.apply(this,args) //这里的this指的是return function的function
 Array.prototype.push.apply(args,[].slice.call(arguments))  //将参数[1,2,3]转成1,2,3
 也可以用call(args,...arr)
 arr.push(1,2,3)
+
 4.26
 fn.apply(this,args)
 this
@@ -108,6 +109,11 @@ Person.prototype.sayHi = function () {
 var per = new Person();
 per.sayHi();
 //Person{} 
+
+4.27
+dns、cdn
+http、输入url经历了什么
+
 
 
 必须会的list
