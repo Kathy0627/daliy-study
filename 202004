@@ -115,7 +115,8 @@ dns、cdn
 http、输入url经历了什么
 
 5.7
-
+arr.includes(string,num)  true/false   num表示从哪个位置开始
+arr.indexOf(string)>-1  true  
 
 
 必须会的list
