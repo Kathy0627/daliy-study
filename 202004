@@ -121,6 +121,7 @@ arr.indexOf(string)>-1  true
 面试题：继承、箭头函数、instanceof、原型链、flex：1
 5.9
 vue双向数据绑定原理
+订阅发布模式、观察者模式
 
 必须会的list
 1.手写promise
