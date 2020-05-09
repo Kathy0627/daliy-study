@@ -117,7 +117,10 @@ http、输入url经历了什么
 5.7
 arr.includes(string,num)  true/false   num表示从哪个位置开始
 arr.indexOf(string)>-1  true  
-
+5.8
+面试题：继承、箭头函数、instanceof、原型链、flex：1
+5.9
+vue双向数据绑定原理
 
 必须会的list
 1.手写promise
