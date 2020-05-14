@@ -122,6 +122,8 @@ arr.indexOf(string)>-1  true
 5.9
 vue双向数据绑定原理
 订阅发布模式、观察者模式
+5.12
+前端模块化 commonjs amd cmd es6
 
 必须会的list
 1.手写promise
